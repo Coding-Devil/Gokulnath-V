@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { AchievementsLayout } from '@/components/ui/layout-grid';
+import AchievementsLayout from '@/components/ui/layout-grid';
 import Tag from '@/components/data-display/tag';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
