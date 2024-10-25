@@ -122,7 +122,7 @@ export const CardItem = ({
 
   useEffect(() => {
     handleAnimations();
-  }, [handleAnimations]); // Add handleAnimations to dependency array
+  }, [isMouseEntered]); // Add handleAnimations to dependency array
 
   const handleAnimations = () => {
     if (!ref.current) return;

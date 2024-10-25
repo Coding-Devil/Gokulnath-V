@@ -102,7 +102,7 @@ const HeroSection = () => {
                   </span>
                 </div>
                 <Typography className="text-primary-100" style={{ fontFamily: 'georgia, serif' }}>
-                  &quot;It's not who you are underneath, but what you do defines you.&quot;
+                  &quot;It&apos;s not who you are underneath, but what you do defines you.&quot;
                 </Typography>
               </div>
             </div>

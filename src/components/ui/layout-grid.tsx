@@ -1,5 +1,7 @@
 'use client';
 
+/* eslint-disable @next/next/no-img-element */
+
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
