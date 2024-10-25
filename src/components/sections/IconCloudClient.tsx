@@ -122,7 +122,7 @@ const IconCloudClient = () => {
   return (
     <div className="h-[400px] lg:h-[500px]">
       <Cloud {...cloudProps}>
-        {renderedIcons && [renderedIcons]}
+        {renderedIcons && renderedIcons}
       </Cloud>
     </div>
   );
