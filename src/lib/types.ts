@@ -12,11 +12,13 @@ export type ExperienceDetails = {
   darkModeLogo?: string | StaticImageData;
   logoAlt: string;
   position: string;
+  company: string;
   currentlyWorkHere?: boolean;
   startDate: Date;
   endDate?: Date;
   summary: string[];
 };
+
 
 export type ProjectDetails = {
   name: string;
