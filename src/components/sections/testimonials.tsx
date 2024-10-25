@@ -9,10 +9,46 @@ const CertificationsSection = () => {
     {
       id: 1,
       name: "AWS Cloud Foundations",
-      description: "Certified in designing distributed systems and architecting solutions using AWS services.",
-      issueDate: "2023",
+      provider: "Amazon AWS Academy",
       logo: "/images/certifications/aws.png",
+      description: "Core AWS services and architectural best practices for cloud computing."
+      
     },
+    {
+      id: 2,
+      name: "Machine Learning Specialization",
+      provider: "Stanford, Andrew NG",
+      logo: "/images/certifications/deep.png",
+      description: "Comprehensive specialization covering ML algorithms, neural networks, and deep learning."
+    },
+    {
+      id: 3,
+      name: "Artificial Intelligence Course",
+      provider: "Samsung SIC",
+      logo: "/images/certifications/sam.png",
+      description: "Fundamentals of AI, machine learning, and deep learning."
+    },
+    {
+      id: 4,
+      name: "Google IT Support",
+      provider: "Google, Coursera",
+      logo: "/images/certifications/Google-IT-Professional-Certificate-Logo.png",
+      description: "Essential skills for IT support professionals."
+    },
+    {
+      id: 5,
+      name: "Python Essentials",
+      provider: "Cisco",
+      logo: "/images/certifications/cisco.png",
+      description: "Foundational knowledge of Python programming."
+    },
+    {
+      id: 6,
+      name: "Data Analytics Professional Certificate",
+      provider: "Google",
+      logo: "/images/certifications/image.png",
+      description: "Data analysis and visualization skills."
+    }
     // Add more certifications...
   ];
 

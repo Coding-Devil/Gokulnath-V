@@ -191,3 +191,32 @@ html {
 #__next {
   overflow-x: hidden;
 }
+
+.achievements-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.achievements {
+  flex: 1;
+  /* Add styles for attractive boxes */
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex: 1;
+}
+
+.certification-box {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.certification-box:hover {
+  transform: scale(1.05);
+}
