@@ -26,6 +26,7 @@ export type ProjectDetails = {
   url: string;
   previewImage: string | StaticImageData;
   technologies: string[];
+  liveDemo?: string; // Add this line to include the liveDemo property
 };
 
 export type TestimonialDetails = {
