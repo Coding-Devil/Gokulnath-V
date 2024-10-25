@@ -112,7 +112,7 @@ const IconCloudClient = () => {
   }, []);
 
   const renderedIcons = useMemo(() => {
-    if (!data) return null;
+    if (!data) return [];
 
     return Object.values(data.simpleIcons as Record<string, SimpleIcon>).map((icon) =>
       renderCustomIcon(icon, theme || "light"),
@@ -122,10 +122,13 @@ const IconCloudClient = () => {
   return (
     <div className="h-[400px] lg:h-[500px]">
       <Cloud {...cloudProps}>
-        {renderedIcons && renderedIcons}
+        {renderedIcons.map((icon, index) => (
+          <div key={index}>{icon}</div>
+        ))}
       </Cloud>
     </div>
   );
 };
 
 export default IconCloudClient;
+
