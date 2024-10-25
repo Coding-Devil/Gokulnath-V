@@ -43,22 +43,22 @@ const ELEMENT_TAGS = {
 
 interface TypographyProps
   extends React.HTMLAttributes<HTMLElement>,
-    TypographyVariants {
+    VariantProps<typeof typographyVariants> {
   as?: keyof JSX.IntrinsicElements;
 }
 
-const Typography = React.forwardRef<HTMLElement, TypographyProps>(
+const Typography = React.forwardRef<HTMLElement | SVGElement, TypographyProps>(
   ({ variant = 'body1', className, as, children, ...props }, ref) => {
     const Comp = as || (variant && ELEMENT_TAGS[variant]) || 'p';
 
-    return (
-      <Comp
-        className={mergeClasses(typographyVariants({ variant }), className)}
-        ref={ref}
-        {...props}
-      >
-        {children}
-      </Comp>
+    return React.createElement(
+      Comp,
+      {
+        className: mergeClasses(typographyVariants({ variant }), className),
+        ref: ref,
+        ...props,
+      },
+      children
     );
   }
 );
