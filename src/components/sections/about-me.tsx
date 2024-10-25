@@ -69,22 +69,22 @@ const AboutMeSection = () => {
       <div className="flex flex-col lg:flex-row gap-12">
         <div className="w-full lg:w-1/2 space-y-6">
           <Typography variant="h3" className="text-3xl font-bold text-sky-500 mb-4" style={{ fontFamily: 'Lora, serif' }}>
-            Hey there, I'm Gokulnath
+            Hey there, I&apos;m Gokulnath
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            I'm wrapping up my Bachelor's in Data Science at RNS Institute of Technology, rocking a 9.41 CGPA, with a solid grip on Python, C++ and SQL. Pretty neat, right?
+            I&apos;m wrapping up my Bachelor&apos;s in Data Science at RNS Institute of Technology, rocking a 9.41 CGPA, with a solid grip on Python, C++ and SQL. Pretty neat, right?
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            Machine learning and cloud computing? That's my jam. I've built some cool stuff like an AI Multimodal Hub and an Electricity Bill System. It's not just theoretical – I'm all about solving real-world problems.
+            Machine learning and cloud computing? That&apos;s my jam. I&apos;ve built some cool stuff like an AI Multimodal Hub and an Electricity Bill System. It&apos;s not just theoretical – I&apos;m all about solving real-world problems.
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            Recently, I got to work with Nokia on some cutting-edge 6G tech. We're talking reinforcement learning and federated learning to make base stations smarter. It's like being in a sci-fi movie, but it's real life!
+            Recently, I got to work with Nokia on some cutting-edge 6G tech. We&apos;re talking reinforcement learning and federated learning to make base stations smarter. It&apos;s like being in a sci-fi movie, but it&apos;s real life!
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            When I'm not knee-deep in code, I'm running workshops,  Sharing knowledge on prompt engineering and web dev with the next generation of tech enthusiasts is my way of giving back.
+            When I&apos;m not knee-deep in code, I&apos;m running workshops,  Sharing knowledge on prompt engineering and web dev with the next generation of tech enthusiasts is my way of giving back.
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            Looking ahead, I'm pumped to dive into the tech industry, bringing fresh ideas and a collaborative spirit. I'm all about pushing boundaries and exploring what's next in tech.
+            Looking ahead, I&apos;m pumped to dive into the tech industry, bringing fresh ideas and a collaborative spirit. I&apos;m all about pushing boundaries and exploring what&apos;s next in tech.
           </Typography>
           <Typography className="text-xl font-semibold text-stone-400 mt-4 mb-2">Quick facts about me:</Typography>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -116,7 +116,7 @@ const AboutMeSection = () => {
         </ul>
         </div>
           <Typography className="text-justify text-white-700 leading-relaxed mt-8" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            Want to chat tech or collaborate on something cool? Hit me up on LinkedIn or check out my projects on GitHub. Let's make some digital magic happen!
+            Want to chat tech or collaborate on something cool? Hit me up on LinkedIn or check out my projects on GitHub. Let&apos;s make some digital magic happen!
           </Typography>
           <div className="flex space-x-4 mt-6">
             <a href="https://www.linkedin.com/in/gokulnath-v-2003g/" target="_blank" rel="noopener noreferrer">
