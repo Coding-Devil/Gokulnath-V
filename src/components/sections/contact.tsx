@@ -60,11 +60,11 @@ const ContactSection = () => {
           className="text-center"
         >
           <h2 className="text-2xl md:text-3xl font-bold  mb-4 text-purple-800">
-            Let's Build Something Together
+            Let&apos;s Build Something Together
           </h2>
 
           <p className="text-base md:text-lg text-gray-400 mb-8 max-w-lg mx-auto">
-            Got an idea? Let's bring it to life. I'm just a message away.
+            Got an idea? Let&apos;s bring it to life. I&apos;m just a message away.
           </p>
 
           {/* Email button - optimized sizing */}

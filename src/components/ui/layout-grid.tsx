@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
+import Image from 'next/image';
 
 interface Certification {
   id: number;
@@ -140,10 +141,11 @@ export const AchievementsLayout = () => {
                 }}
                 transition={{ duration: 0.2 }}
               >
-                <img
+                <Image 
                   src={cert.logo}
                   alt={cert.provider}
-                  className="w-full h-16 object-contain mb-4"
+                  width={100}
+                  height={50}
                 />
               </motion.div>
               <div className="text-center">
@@ -183,10 +185,11 @@ export const AchievementsLayout = () => {
       
 
                 <div className="relative">
-                  <img
+                  <Image 
                     src={selectedCert.logo}
                     alt={selectedCert.name}
-                    className="w-20 h-20 object-contain mx-auto mb-6"
+                    width={100}
+                    height={50}
                   />
                   <Dialog.Title className="text-xl font-bold text-center">
                     {selectedCert.name}
