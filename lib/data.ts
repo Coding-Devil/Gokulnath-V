@@ -80,3 +80,4 @@ export const TECHNOLOGIES = [
     logo: "/icons/cypress.svg",
   },
 ];
+
