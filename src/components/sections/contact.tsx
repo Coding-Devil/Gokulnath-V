@@ -83,16 +83,16 @@ const ContactSection = () => {
           </div>
 
           {/* Social icons - adjusted spacing */}
-          <div className="flex justify-center gap-4 md:gap-6 mt-8 md:mt-12">
+          <div className="flex justify-center gap-2 md:gap-4 mt-8 md:mt-12">
             {socialLinks.map(({ icon, href, name, gradient, hoverGradient }) => (
               <motion.a
                 key={name}
                 href={href}
-                className={`text-white bg-gradient-to-r ${gradient} ${hoverGradient} transition-all duration-300 p-1.5 md:p-2 rounded-full shadow-lg`}
+                className={`text-white bg-gradient-to-r ${gradient} ${hoverGradient} transition-all duration-300 p-1.5 md:p-2 rounded-full shadow-lg flex items-center justify-center`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <div className="w-6 h-6 md:w-7 md:h-7">
+                <div className="w-6 h-6 md:w-7 md:h-7 flex items-center justify-center">
                   {icon}
                 </div>
               </motion.a>

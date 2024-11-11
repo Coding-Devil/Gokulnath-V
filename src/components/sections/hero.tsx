@@ -82,8 +82,8 @@ const HeroSection = () => {
               </Typography>
               <br />
               <Typography className="text-justify text-md font-serif">
-                Passionate Software Developer specializing in Python, C++ & web development. 
-                Expert in Machine learning, AWS deployment and DevOps tools. 
+                Passionate Software Developer 👨‍💻specializing in Python,✨AI & web development . 
+                Expert in Machine learning, AWS deployment and DevOps tools 🛠️. 
                 Proven track record in AI-driven applications and agile environments. 
                 Eager to leverage my technical and analytical skills to tackle complex challenges and deliver impactful software solutions.
               </Typography>
@@ -91,7 +91,7 @@ const HeroSection = () => {
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
                 <MapPin className="stroke-gray-600" />
-                <Typography>Bangalore, India</Typography>
+                <Typography className ='font-serif' >Bangalore, India</Typography>
               </div>
 
               <div className="flex items-center gap-2">
@@ -102,7 +102,7 @@ const HeroSection = () => {
                   </span>
                 </div>
                 <Typography className="text-primary-100" style={{ fontFamily: 'georgia, serif' }}>
-                  &quot;It&apos;s not who you are underneath, but what you do defines you.&quot;
+                  &quot;It&apos;s not who I am underneath, but what I do defines me ⚜️&quot;
                 </Typography>
               </div>
             </div>

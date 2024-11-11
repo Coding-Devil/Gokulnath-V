@@ -56,12 +56,12 @@ const CertificationsSection = () => {
     {
       id: 1,
       title: "Awarded 'Medal of Merit' for academic excellence throughout Engineering.",
-      date: "2024"
+      date: "2021-25"
     },
     {
       id: 2,
       title: "Second Best 'Student Project' among top Universities in Nokia (NBUC) 2024 for pioneering work in 6G network optimization.",
-      date: "2024"
+      date: "Oct 2024"
     },
     {
       id: 3,
@@ -76,7 +76,7 @@ const CertificationsSection = () => {
     {
       id: 5,
       title: "Consistently recognised 'Student of the Year' in High School for excelling in sports, academics and leadership.",
-      date: "2020-2022"
+      date: "School"
     }
   ];
 

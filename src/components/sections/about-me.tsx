@@ -72,16 +72,16 @@ const AboutMeSection = () => {
             Hey there, I&apos;m Gokulnath
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            I&apos;m wrapping up my Bachelor&apos;s in Data Science at RNS Institute of Technology, rocking a 9.41 CGPA, with a solid grip on Python, C++ and SQL. Pretty neat, right?
+            I&apos;m wrapping up my Bachelor&apos;s 🎓in Data Science at RNS Institute of Technology, rocking a 9.41 CGPA, with a solid grip on Python, C++ and SQL. Pretty neat, right?
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            Machine learning and cloud computing? That&apos;s my jam. I&apos;ve built some cool stuff like an AI Multimodal Hub and an Electricity Bill System. It&apos;s not just theoretical – I&apos;m all about solving real-world problems.
+            Machine learning & ☁️cloud computing? That&apos;s my jam. I&apos;ve built some cool stuff like an AI Multimodal Hub and an Electricity Bill System. It&apos;s not just theoretical – I&apos;m all about solving real-world problems.
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            Recently, I got to work with Nokia on some cutting-edge 6G tech. We&apos;re talking reinforcement learning and federated learning to make base stations smarter. It&apos;s like being in a sci-fi movie, but it&apos;s real life!
+            Recently, I got to work with NOKIA on cutting-edge 6G tech. We&apos;re talking reinforcement learning and federated learning to make base stations smarter. It&apos;s like being in a sci-fi movie, but it&apos;s real life!
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
-            When I&apos;m not knee-deep in code, I&apos;m running workshops,  Sharing knowledge on prompt engineering and web dev with the next generation of tech enthusiasts is my way of giving back.
+            When I&apos;m not knee-deep in code, I&apos;m running workshops,  Sharing knowledge on prompt engineering and web dev hacks with the tech enthusiasts is my way of giving back.
           </Typography>
           <Typography className="text-justify text-white-700 leading-relaxed" style={{ fontFamily: 'Georgia, sans-serif' }}>
             Looking ahead, I&apos;m pumped to dive into the tech industry, bringing fresh ideas and a collaborative spirit. I&apos;m all about pushing boundaries and exploring what&apos;s next in tech.
