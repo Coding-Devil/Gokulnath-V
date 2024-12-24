@@ -115,7 +115,7 @@ const IconCloudClient = () => {
     if (!data) return [];
 
     return Object.values(data.simpleIcons as Record<string, SimpleIcon>).map((icon) =>
-      renderCustomIcon(icon, theme || "light"),
+      renderCustomIcon(icon, theme || "dark"),
     );
   }, [data, theme]);
 
