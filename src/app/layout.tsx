@@ -8,10 +8,10 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Gokul';
+const title = 'GOKUL';
 const description =
   'The Code-Crusader';
-const url = 'https://gokul.tech';
+const url = 'https://gokulnath.tech';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
